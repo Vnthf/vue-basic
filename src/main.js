@@ -1,12 +1,7 @@
+import Vue from 'vue'
+import App from './App.vue'
 
 var app = new Vue({
     el: '#app',
-    data: {
-        newTodo: ''
-    },
-    methods: {
-      addTodo: function(){
-        this.newTodo = ''
-      }
-    }
+    render: h=>h(App)
 });

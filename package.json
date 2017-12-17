@@ -5,10 +5,20 @@
   "author": "minhochoi <>",
   "private": true,
   "scripts": {
+    "dev": "webpack-dev-server --open --hot"
   },
   "dependencies": {
+    "vue": "^2.5.9"
   },
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.7",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "vue-loader": "^13.5.0",
+    "vue-template-compiler": "^2.5.9",
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.9.1"
   }
